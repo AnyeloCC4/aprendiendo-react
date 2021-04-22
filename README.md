@@ -1,2 +1,1 @@
-# aprendiendo-react
-parte1 de react
+Empezando proyecto con React
