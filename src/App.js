@@ -1,12 +1,14 @@
 import './App.css';
-import Mensaje from './Mensaje'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div className="App">
-      <Mensaje color='red' message='Estamos trabajando' />
-      <Mensaje color='green' message='En un Curso' />
-      <Mensaje color='yellow' message='De React' />
+      < Header />
+      <Main />
+      < Footer />
     </div>
   );
 }
